@@ -9,4 +9,4 @@ class College:
         print('hello there !!')
 
     def display_college_details(self):
-        print(f'College code :{self._collcode} \n College Name: {self._collname} \n City {self._collcity}',self.collcode ,self.collname,self.collcity)
+        print(f'College code :{self._collcode} \n College Name: {self._collname} \n City {self._collcity}')

@@ -1,5 +1,7 @@
 from oops.college import College
 from oops.student import Student
+from oops.studentgrade import StudentGrade
+from oops.teacher import Teacher
 
 cc = int(input(' Coll Code: '))
 cn = input(' Coll Name : ')
@@ -11,15 +13,30 @@ m2 = int (input('Marks 2'))
 m3 = int (input('Marks 3'))
 
 
+
 #project = College(ccode = cc, cname = cn , ccity = ci)
 
 #project.welcome_message()
 #project.display_college_details()
 
-project = Student(ccode = cc , cname=cn,ccity=cc,
-                  rno = rno , sname = sn, m1=m1,m2=m2,m3=m3)
-
+#project = Student(ccode = cc , cname=cn,ccity=cc,rno = rno , sname = sn, m1=m1,m2=m2,m3=m3)
+project = StudentGrade(ccode = cc , cname=cn,ccity=cc,rno = rno , sname = sn, m1=m1,m2=m2,m3=m3)
 project.welcome_message()
 project.display_college_details()
 print(f'Roll no: {project.rollno} \t Name : {project.stuname}'
     f'total: {project.calculate_total()} \n Average : {project.calculate_average()}')
+
+
+eid = int(input('Eid'))
+tn = input('teacher name ')
+dp = input('dept name ')
+bp = float(input('Bp'))
+
+
+
+project.calculate_grade()
+print (f'Result : {project.result} \t Grade : {project.grade}')
+
+teach = Teacher(ccode = cc , cname=cn,ccity=cc, eid=eid , tn=tn,dp=dp,bp=bp)
+print(f'Eid: {teach.empid} \t Name: {teach.tname}\t Dept: {teach.dept}')
+print(f'salary : {teach.calculate_salary()}')
