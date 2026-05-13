@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-05-11T16:07:16.315404" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\wipro training\ROBOT\RobotProject\tests">
+<suite id="s1-s1" name="Login" source="C:\wipro training\ROBOT\RobotProject\tests\login.robot">
+<test id="s1-s1-t1" name="Verify User Can Login Successfully" line="5">
+<kw name="Open Demoblaze Application">
+<msg time="2026-05-11T16:07:16.380930" level="FAIL">No keyword with name 'Open Demoblaze Application' found.</msg>
+<status status="FAIL" start="2026-05-11T16:07:16.380853" elapsed="0.000175">No keyword with name 'Open Demoblaze Application' found.</status>
+</kw>
+<kw name="Click Login Menu">
+<status status="NOT RUN" start="2026-05-11T16:07:16.382130" elapsed="0.000041"/>
+</kw>
+<kw name="Enter Login Username">
+<status status="NOT RUN" start="2026-05-11T16:07:16.382541" elapsed="0.000030"/>
+</kw>
+<kw name="Enter Login Password">
+<status status="NOT RUN" start="2026-05-11T16:07:16.382853" elapsed="0.000024"/>
+</kw>
+<kw name="Click Login Button">
+<status status="NOT RUN" start="2026-05-11T16:07:16.398265" elapsed="0.000038"/>
+</kw>
+<kw name="Validate Successful Login">
+<status status="NOT RUN" start="2026-05-11T16:07:16.398951" elapsed="0.000028"/>
+</kw>
+<kw name="Close Application">
+<status status="NOT RUN" start="2026-05-11T16:07:16.400310" elapsed="0.000031"/>
+</kw>
+<status status="FAIL" start="2026-05-11T16:07:16.375666" elapsed="0.025118">No keyword with name 'Open Demoblaze Application' found.</status>
+</test>
+<test id="s1-s1-t2" name="Verify Invalid User Login" line="14">
+<kw name="Open Demoblaze Application">
+<msg time="2026-05-11T16:07:16.405381" level="FAIL">No keyword with name 'Open Demoblaze Application' found.</msg>
+<status status="FAIL" start="2026-05-11T16:07:16.405340" elapsed="0.000104">No keyword with name 'Open Demoblaze Application' found.</status>
+</kw>
+<kw name="Click Login Menu">
+<status status="NOT RUN" start="2026-05-11T16:07:16.405778" elapsed="0.000026"/>
+</kw>
+<kw name="Enter Invalid Login Username">
+<status status="NOT RUN" start="2026-05-11T16:07:16.406373" elapsed="0.000027"/>
+</kw>
+<kw name="Enter Invalid Login Password">
+<status status="NOT RUN" start="2026-05-11T16:07:16.407000" elapsed="0.000026"/>
+</kw>
+<kw name="Click Login Button">
+<status status="NOT RUN" start="2026-05-11T16:07:16.407321" elapsed="0.000025"/>
+</kw>
+<kw name="Validate Invalid Login Alert">
+<status status="NOT RUN" start="2026-05-11T16:07:16.410716" elapsed="0.000035"/>
+</kw>
+<kw name="Close Application">
+<status status="NOT RUN" start="2026-05-11T16:07:16.411045" elapsed="0.000029"/>
+</kw>
+<status status="FAIL" start="2026-05-11T16:07:16.403969" elapsed="0.007462">No keyword with name 'Open Demoblaze Application' found.</status>
+</test>
+<status status="FAIL" start="2026-05-11T16:07:16.357387" elapsed="0.079830"/>
+</suite>
+<suite id="s1-s2" name="Signup" source="C:\wipro training\ROBOT\RobotProject\tests\signup.robot">
+<test id="s1-s2-t1" name="Verify User Can Signup Successfully" line="5">
+<kw name="Open Demoblaze Application">
+<msg time="2026-05-11T16:07:16.442080" level="FAIL">No keyword with name 'Open Demoblaze Application' found.</msg>
+<status status="FAIL" start="2026-05-11T16:07:16.442043" elapsed="0.000081">No keyword with name 'Open Demoblaze Application' found.</status>
+</kw>
+<kw name="Click Signup Menu">
+<status status="NOT RUN" start="2026-05-11T16:07:16.442355" elapsed="0.000020"/>
+</kw>
+<kw name="Enter Signup Username">
+<status status="NOT RUN" start="2026-05-11T16:07:16.442585" elapsed="0.000019"/>
+</kw>
+<kw name="Enter Signup Password">
+<status status="NOT RUN" start="2026-05-11T16:07:16.442923" elapsed="0.000028"/>
+</kw>
+<kw name="Click Signup Button">
+<status status="NOT RUN" start="2026-05-11T16:07:16.443393" elapsed="0.000030"/>
+</kw>
+<kw name="Validate Signup Success Message">
+<status status="NOT RUN" start="2026-05-11T16:07:16.443772" elapsed="0.000027"/>
+</kw>
+<kw name="Close Application">
+<status status="NOT RUN" start="2026-05-11T16:07:16.444124" elapsed="0.000025"/>
+</kw>
+<status status="FAIL" start="2026-05-11T16:07:16.440777" elapsed="0.003813">No keyword with name 'Open Demoblaze Application' found.</status>
+</test>
+<status status="FAIL" start="2026-05-11T16:07:16.437912" elapsed="0.007453"/>
+</suite>
+<status status="FAIL" start="2026-05-11T16:07:16.317411" elapsed="0.129033"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="0" fail="3" skip="0">Tests</stat>
+<stat name="Login" id="s1-s1" pass="0" fail="2" skip="0">Tests.Login</stat>
+<stat name="Signup" id="s1-s2" pass="0" fail="1" skip="0">Tests.Signup</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-05-11T16:07:16.371235" level="ERROR">Error in file 'C:\wipro training\ROBOT\RobotProject\tests\login.robot' on line 2: Resource file '..\resources\keywords\login_keywords.robot' does not exist.</msg>
+<msg time="2026-05-11T16:07:16.439635" level="ERROR">Error in file 'C:\wipro training\ROBOT\RobotProject\tests\signup.robot' on line 2: Resource file '..\resources\keywords\signup_keywords.robot' does not exist.</msg>
+</errors>
+</robot>
